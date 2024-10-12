@@ -1,0 +1,10 @@
+{
+    "REQUIRED ELSE WILL NOT WORK":"Create an account on https://metabypass.tech/ and paste its keys here",
+    "note":"This is just an example format, follow all steps given in readme.md",
+    "grant_type":"password",
+    "client_id":2111,
+    "client_secret":"HlrCszITMWgXw9bW7xjv9ewCO3InWhHZWXHkzNxI",
+    "client_name":"client-340",
+    "username":"example@gmail.com",
+    "password":"#91099@5746=30492988408"
+}
