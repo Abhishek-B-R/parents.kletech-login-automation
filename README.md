@@ -1,5 +1,7 @@
 ## This repo contains all the code required to automate the login process of parents.kletech website
 
+## Firstly clone this repo and give a star to this repo , as this motivates me to do such stuff more
+
 ### To run this natively on your machine and automate yourself:
 
 1. **Pre-requisites**:
