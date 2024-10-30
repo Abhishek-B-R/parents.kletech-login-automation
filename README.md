@@ -6,6 +6,7 @@
 
 1. **Pre-requisites**:
     - Make sure you have `node` (version 14+) and `git` (version 2.x or higher) installed on your system. If not, you can install them by following tutorials available on YouTube for your operating system.
+    - You can visit https://nodejs.org/en/download/package-manager and https://git-scm.com/downloads to download node and git respectively
 
 2. **Clone the repository**:
     - Open your terminal/command prompt and run the following commands to clone the repository and navigate to the project folder:
