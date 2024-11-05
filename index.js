@@ -32,7 +32,7 @@ function delay(time) {
   await page.goto('https://parents.kletech.ac.in/index.php', { waitUntil: 'networkidle2' });
 
   await page.waitForSelector('#username');
-  await page.type('#username', fileData.username, { delay: 300 });
+  await page.type('#username', fileData.username, { delay: 250 });
   
   await page.click('#dd');
 
@@ -92,9 +92,9 @@ function delay(time) {
     console.log('Solved captcha:', solvedCaptcha);
 
     await page.waitForSelector('#security_code');
-    await page.type('#security_code', solvedCaptcha, { delay: 300 });
+    await page.type('#security_code', solvedCaptcha, { delay: 250 });
 
-    await delay(3000); 
+    await delay(100); 
 
     await page.click('.uk-button.uk-button-primary.uk-button-large.uk-width-1-1.cn-login-btn.cn-submit1');
 
