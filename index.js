@@ -52,7 +52,7 @@ function delay(time) {
   await page.keyboard.press('Enter');
 
   await page.click('#yyyy'); 
-  const yearIndex = fileData.yyyy - 1963; 
+  const yearIndex = fileData.yyyy - 1973; 
   for (let i = 0; i < yearIndex; i++) {
     await page.keyboard.press('ArrowDown');
     if(i < 37){
