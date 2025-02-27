@@ -27,15 +27,15 @@
     mv data.example.json data.json
     mv details.example.json details.json
     ```
-
+<!-- 
 5. **Configure MetaBypass API**:
     - Head over to `https://metabypass.tech/` and create a free account. After logging in, navigate to the `application` section and click on the `Copy Json` button.
-    - Paste the copied content into `details.json`. Ensure that the API credentials are correctly set up in this file.You can refer the example format given in this repo.
+    - Paste the copied content into `details.json`. Ensure that the API credentials are correctly set up in this file.You can refer the example format given in this repo. -->
 
-6. **Enter Your Details**:
+5. **Enter Your Details**:
     - Open `data.json` and enter your USN and Date of Birth (DOB) in the appropriate fields.
 
-7. **Run the automation**:
+6. **Run the automation**:
     - Run the following command to start the automation process:
     ```bash
     npm run start

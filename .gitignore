@@ -8,3 +8,6 @@ coverage/
 .vscode/
 temp/
 *.tmp
+/details.example.json
+/data.json
+/details.json
