@@ -25,8 +25,8 @@
     - Run the following commands to create the necessary configuration files:
     ```bash
     mv data.example.json data.json
-    mv details.example.json details.json
     ```
+    <!-- mv details.example.json details.json -->
 <!-- 
 5. **Configure MetaBypass API**:
     - Head over to `https://metabypass.tech/` and create a free account. After logging in, navigate to the `application` section and click on the `Copy Json` button.
