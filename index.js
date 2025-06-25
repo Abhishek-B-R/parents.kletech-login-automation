@@ -1,8 +1,8 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
-const axios = require('axios');
-const captchaSolving = require('./captcha');
+// const axios = require('axios');
+// const captchaSolving = require('./captcha');
 
 function delay(time) {
   return new Promise(resolve => setTimeout(resolve, time));
@@ -11,7 +11,12 @@ function delay(time) {
 (async () => {
   const browser = await puppeteer.launch({
     headless: false,
-    args: ['--no-sandbox', '--disable-setuid-sandbox','--start-maximized']
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--start-maximized',
+      '--disable-dev-shm-usage'
+    ]
   });
   
   const [page] = await browser.pages();
@@ -113,6 +118,8 @@ function delay(time) {
   } else {
     console.log('Login successful!');
   }
+  console.log("DISPLAY ENV:", process.env.DISPLAY);
+
 
   await delay(600000);
 
